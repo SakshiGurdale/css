@@ -1,0 +1,29 @@
+/*universal  Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Element Selector */
+p {
+    color: blue;
+    font-size: 18px;
+}
+/* ID Selector */
+#heading {
+    color: red;
+    text-align: center;
+}
+/* Class Selector */
+.text {
+    color: green;
+    font-weight: bold;
+}
+/* Group Selector */
+h2, button {
+    background-color: lightgray
+    color: black;
+    padding: 10px;
+}
+
+
