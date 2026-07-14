@@ -1,0 +1,65 @@
+   
+.fade {
+animation: fadeUp 2s infinite;
+}
+@keyframes fadeUp {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+.typing {
+color.crimson;
+width:13ch;
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #fff;
+animation:typing 4s steps(13)
+infinite,
+blink .6s infinite;
+}
+@keyframes typing{
+from {width:0;}
+to{width: 13ch;}
+}
+@keyframes blink{
+50% {border-color:transparent;}
+.gradient{
+background:linear-gradient(90deg,#OOf#Off,#OOf);
+background-size:300%;
+background-clip:text;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+animation:gradientFlow 4s linear infinite;
+}
+@keyframes gradientFlow{
+    from {background-position:0%}
+    to {background: position 300%;}
+.neon{
+    color:#OObff;
+animation:neon 1.5s infinite
+alternate;
+}
+@keyframes neon{
+    from{
+text-shadow:0 0 5px #OObfff;
+    }
+    to{
+        text-shadow:
+        O O 10px #00bfff;
+    }
+    to{
+text-shadow:
+0 0 10px #oobfff,
+0 0 20px #002c3b,
+0 0 40px #ecfof2;
+    }
+    .wave span{
+        display:inline-block;
+        animation:wave 1.2s infinite;
+    }
+    
+
+ 
